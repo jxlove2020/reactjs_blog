@@ -36,3 +36,10 @@ npm i styled-components
 ```
 
 react-router-dom 과 styled-components 설치합니다.
+
+# 컴포넌트 생성
+
+ui 폴더 생성 후 컴포넌트를 만들어 줍니다.
+Button , TextInput( 여러 줄 입력 하기 때문에 textarea 로 생성 )
+
+list 폴더 생성 후 PostListItem , PostList 컴포넌트를 만들어 줍니다.
