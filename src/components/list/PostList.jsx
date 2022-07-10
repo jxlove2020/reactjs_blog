@@ -17,9 +17,9 @@ const Wrapper = styled.div`
 function PostList(props) {
 	const { posts, onClickItem } = props;
 
-	posts.map((post, index) => {
-		return (
-			<Wrapper>
+	<Wrapper>
+		{posts.map((post, index) => {
+			return (
 				<PostListItem
 					key={post.id}
 					value={post.title}
@@ -27,9 +27,9 @@ function PostList(props) {
 						onClickItem(post);
 					}}
 				/>
-			</Wrapper>
-		);
-	});
+			);
+		})}
+	</Wrapper>;
 }
 
 export default PostList;
